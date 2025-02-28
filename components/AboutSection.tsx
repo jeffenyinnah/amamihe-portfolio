@@ -82,9 +82,9 @@ const AboutSection = () => {
             <p className="text-muted-foreground mb-8">
               My approach combines analytical expertise with technical skills to
               develop comprehensive solutions that address real business
-              challenges. Whether you're looking to gain deeper insights from
-              your data or create a stunning web application, I'm here to help
-              you achieve your goals.
+              challenges. Whether you&apos;re looking to gain deeper insights
+              from your data or create a stunning web application, I&apos;m here
+              to help you achieve your goals.
             </p>
             <Link
               href="/about"

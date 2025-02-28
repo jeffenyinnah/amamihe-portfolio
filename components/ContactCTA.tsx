@@ -27,7 +27,6 @@ const ContactCTA = () => {
     };
   }, []);
 
-  const [isLoaded, setIsLoaded] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -35,10 +34,6 @@ const ContactCTA = () => {
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
 
   const handleChange = (
     e: React.ChangeEvent<
@@ -58,7 +53,7 @@ const ContactCTA = () => {
       const submissionData = {
         name: formData.name,
         email: formData.email,
-        subject: formData.subject, // Ensure this is included
+        subject: formData.subject,
         message: formData.message,
       };
 
@@ -78,7 +73,7 @@ const ContactCTA = () => {
         setFormData({
           name: "",
           email: "",
-          subject: "", // Reset the subject field
+          subject: "",
           message: "",
         });
       } else {

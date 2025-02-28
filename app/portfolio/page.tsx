@@ -246,8 +246,8 @@ const Portfolio = () => {
             Ready to start your project?
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto mb-8">
-            Let's collaborate to create impactful data solutions and exceptional
-            web experiences.
+            Let&apos;s collaborate to create impactful data solutions and
+            exceptional web experiences.
           </p>
           <a
             href="/contact"

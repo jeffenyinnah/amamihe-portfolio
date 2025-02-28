@@ -45,7 +45,7 @@ const Hero = () => {
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg transition-all hover:bg-primary/90 hover:gap-3 animate-slideUp"
             style={{ animationDelay: "0.4s" }}
           >
-            Let's talk <ArrowRight size={16} />
+            Let&apos;s talk <ArrowRight size={16} />
           </Link>
         </div>
 

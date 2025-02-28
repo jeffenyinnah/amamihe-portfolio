@@ -19,7 +19,6 @@ const Contact = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const [isLoaded, setIsLoaded] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -27,10 +26,6 @@ const Contact = () => {
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
 
   const handleChange = (
     e: React.ChangeEvent<
@@ -99,7 +94,7 @@ const Contact = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Get In Touch</h1>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Have a project in mind or want to discuss a potential collaboration?
-            I'd love to hear from you.
+            I&apos;d love to hear from you.
           </p>
         </div>
 
@@ -110,10 +105,10 @@ const Contact = () => {
             style={{ animationDelay: "0.2s" }}
           >
             <h2 className="text-2xl font-bold mb-6">
-              Let's talk about your project
+              Let&apos;s talk about your project
             </h2>
             <p className="text-muted-foreground mb-8">
-              Feel free to reach out if you're looking for a data analytics
+              Feel free to reach out if you&apos;re looking for a data analytics
               consultant or web developer, have a question, or just want to
               connect.
             </p>
