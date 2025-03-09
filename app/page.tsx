@@ -2,6 +2,7 @@ import AboutSection from "@/components/AboutSection";
 import Clients from "@/components/Clients";
 import ContactCTA from "@/components/ContactCTA";
 import FeaturedProjects from "@/components/FeaturedProjects";
+import GithubDisplay from "@/components/GithubDisplay";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <AboutSection />
       <Services />
       <FeaturedProjects />
+      <GithubDisplay />
       <ContactCTA />
     </div>
   );
