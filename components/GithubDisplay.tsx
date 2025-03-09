@@ -42,7 +42,7 @@ export default function GithubDisplay() {
     };
 
     fetchData();
-    const interval = setInterval(fetchData, 60000); // Fetch every 60 seconds
+    const interval = setInterval(fetchData, 18000000); // Fetch every 2 hours
 
     // Set visibility for animation
     const observer = new IntersectionObserver(
