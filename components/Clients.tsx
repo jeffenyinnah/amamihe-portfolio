@@ -25,7 +25,9 @@ const Clients = () => {
   }, []);
 
   const clients = [
+    { name: "Consultores HODI", logo: "text-lg font-medium italic" },
     { name: "ENGIE Energy Access Mozambique", logo: "text-lg font-bold" },
+    { name: "Global Affairs Canada", logo: "text-lg font-semibold" },
     { name: "Britam Companhia De Seguros", logo: "text-lg font-medium italic" },
     { name: "GreenWaves Mozambique", logo: "text-lg font-semibold" },
     {
@@ -41,7 +43,7 @@ const Clients = () => {
       className="py-16 px-6 md:px-12 lg:px-24 bg-secondary"
     >
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
           {clients.map((client, index) => (
             <div
               key={client.name}

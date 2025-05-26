@@ -34,11 +34,11 @@ const FeaturedProjects = () => {
       description: "Interactive dashboards for visualizing complex datasets.",
     },
     {
-      title: "MPESA Realtime Analytics",
+      title: "Mozambique Wildlife Mapbox GL JS Demo",
       category: "Web Development",
-      image: "/mpesa-report.png",
+      image: "/mozambique.png",
       description:
-        "A saas Realtime M-Pesa Analytics Dashboard for powerfull & Actionable Insights.",
+        "An interactive demo application showcasing wildlife locations, projects, project status, funding in Mozambican provinces using Mapbox GL JS and Nextjs.",
     },
     {
       title: "Conversational Data Explorer Tool",

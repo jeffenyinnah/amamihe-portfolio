@@ -29,7 +29,7 @@ const Portfolio = () => {
       url: "https://public.tableau.com/app/profile/amamihe.kaiser/vizzes",
     },
     {
-      id: 2,
+      id: 9,
       title: "MPESA Realtime Analytics",
       category: "web-development",
       categoryName: "Web Development",
@@ -51,7 +51,7 @@ const Portfolio = () => {
       url: "https://conversational-data-explorer.streamlit.app/",
     },
     {
-      id: 4,
+      id: 10,
       title: "Zinta: AI-Powered Meeting Transcription",
       category: "web-development",
       categoryName: "Web Development",
@@ -105,7 +105,29 @@ const Portfolio = () => {
       technologies: ["Python", "TensorFlow", "Pandas", "Scikit-learn"],
     },
     {
-      id: 9,
+      id: 2,
+      title: "Airplane Flight Tracker app with Mapbox GL JS",
+      category: "web-development",
+      categoryName: "Web Development",
+      image: "/flight.png",
+      description:
+        "An interactive web application that tracks airplane flights in real-time using Mapbox GL JS.",
+      technologies: ["Next.js", "Mapbox GL JS", "React", "JavaScript"],
+      url: "https://flight-tracker-mapbox-gls-js.vercel.app/",
+    },
+    {
+      id: 4,
+      title: "Mozambique Wildlife Mapbox GL JS Demo",
+      category: "web-development",
+      categoryName: "Web Development",
+      image: "/mozambique.png",
+      description:
+        "An interactive demo application showcasing wildlife locations, projects, project status, funding in Mozambican provinces using Mapbox GL JS and Nextjs.",
+      technologies: ["Next.js", "Mapbox GL JS", "React", "JavaScript"],
+      url: "https://mozwildlife-mapboxgls-demo.vercel.app/",
+    },
+    {
+      id: 11,
       title: "More Projects",
       category: "git-hub",
       categoryName: "Github",

@@ -168,7 +168,7 @@ const Contact = () => {
                   <Mail size={18} />
                 </a>
                 <a
-                  href="https://linkedin.comhttps://www.linkedin.com/in/amamihe-kaiser/"
+                  href="https://www.linkedin.com/in/amamihe-kaiser/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
